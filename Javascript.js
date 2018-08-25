@@ -1,15 +1,21 @@
 
 var  nextTrain;
 var nextTrainTime;
-var config = {
-    apiKey: "AIzaSyBOvL-WeYU1553U8Rv-9xZmjwMkz85KX4o",
-    authDomain: "traincbc-474ec.firebaseapp.com",
-    databaseURL: "https://traincbc-474ec.firebaseio.com",
-    projectId: "traincbc-474ec",
-    storageBucket: "traincbc-474ec.appspot.com",
-    messagingSenderId: "641507904869"
-};
-firebase.initializeApp(config);
+
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDNrzBj6kPPP9I_us3p-L0nVkz3HgAAzlE",
+    authDomain: "trainapp-63acb.firebaseapp.com",
+    databaseURL: "https://trainapp-63acb.firebaseio.com",
+    projectId: "trainapp-63acb",
+    storageBucket: "trainapp-63acb.appspot.com",
+    messagingSenderId: "213569579940"
+  };
+  firebase.initializeApp(config);
+</script>
+
 var database = firebase.database();
 
 
