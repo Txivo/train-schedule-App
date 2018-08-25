@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+
+.lora{
+    color:black  ;
+    font-family: 'Lora', serif;
+
+}
+
+.encabezadoTexto{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+tr, th, td {
+    border:solid;
+}
